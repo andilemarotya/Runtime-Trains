@@ -1,0 +1,124 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+//Styles for buttons and their hover states
+.button__primary {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 0px 20px 0px 20px;
+  color: #dbdbdb;
+  background-color: #212121;
+  border-radius: 5px;
+  transition: 0.5s ease;
+
+  &:hover {
+    background-color: #636262;
+    color: #fff;
+  }
+}
+
+.button__secondary {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 0px 20px 0px 20px;
+  color: #212121;
+  background-color: #dbdbdb;
+  border-radius: 5px;
+  transition: 0.5s ease;
+
+  &:hover {
+    background-color: #8a8a8a;
+    color: #ebebeb;
+  }
+}
+
+.button__tertiary {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 0px 20px 0px 20px;
+  color: #212121;
+  background-color: #f7b500;
+  border-radius: 5px;
+  transition: 0.5s ease;
+
+  &:hover {
+    background-color: #dbdbdb;
+    color: #f7b500;
+    border: 1px solid #f7b500;
+  }
+}
+
+//Styles for the navbar
+header {
+  background-color: #f7b500;
+  .nav__wrapper {
+    padding: 12px 0px 12px 0px;
+
+    //Style for logo
+    .logo {
+      h2 {
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 28px;
+        color: #212121;
+      }
+    }
+
+    //Styles for the menu items
+    .menu {
+      a {
+        font-weight: 400;
+        font-size: 1rem;
+        color: #212121;
+        font-family: 'Poppins', sans-serif;
+        transition: 0.8s;
+
+        &:hover {
+          font-weight: 700;
+        }
+      }
+    }
+
+    .menu__active {
+      font-weight: 700 !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .dash {
+        width: calc(100% - 20%);
+        height: 3px;
+        background-color: #212121;
+        border-radius: 15px;
+        margin-top: 8px;
+      }
+    }
+  }
+}
