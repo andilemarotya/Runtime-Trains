@@ -4,7 +4,7 @@ import '../App.css';
 
 import { Container } from 'reactstrap';
 import { NavLink, Link } from 'react-router-dom';
-import { MenuRoundedIcon } from '@mui/icons-material';
+import { MenuRounded } from '@mui/icons-material';
 
 const nav__links = [
   {
@@ -66,7 +66,8 @@ function Navbar() {
 
           {/* === Hamburger === */}
           <div className="menu__burger">
-            <MenuRoundedIcon />
+            <MenuRounded />
+
           </div>
         </div>
       </Container>

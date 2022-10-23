@@ -91,6 +91,142 @@ a {
   border: 1px solid #f7b500;
 }
 
+.About_section1 {
+  margin: 2rem 3rem;
+  
+}
+.About_h1{
+
+  width: 158px;
+  height: 48px;
+  left: 124px;
+  top: 165px;
+
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.045em;
+
+  color: #F7B500;
+}
+hr {
+  width: 1250px;
+  position: center;
+}
+
+.About_train {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2.3em ;
+}
+.About_trainpic {
+  width: 281px;
+  height: 320px;
+}
+
+
+.About_text {
+
+  width: 577px;
+  height: 344px;
+  left: 609px;
+  top: 318px;
+  margin: 2em;
+
+}
+
+.About_section2 {
+  margin: 2rem 3rem;
+}
+
+.About_h2 {
+
+  width: 445px;
+  height: 48px;
+  left: 128px;
+  top: 781px;
+
+
+  color: #F7B500;
+
+}
+
+
+.About_h3 {
+  
+  width: 363px;
+  height: 48px;
+  left: 127px;
+  top: 1444px;
+
+ 
+  color: #F7B500;
+
+  
+}
+.About_form {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  
+}
+
+.form_wrapper {
+  margin: 2.4rem 3rem;
+}
+
+.form_wrapper form {
+  flex: 1;
+  
+}
+
+form input {
+  width: 482px;
+  height: 45px;
+  border: none;
+  outline: none;
+  background-color: #E0DFDF;
+  border-radius: 5px;
+
+  align-items: flex-start;
+  padding: 14px 22px;
+  gap: 8px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.Input_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.submit-btn {
+  color: white;
+  background-color: #212121;
+  box-shadow: 1px 5px 20px rgba(33, 33, 33, 0.3);
+  border-radius: 5px;
+  padding: 8px 16px;
+  gap: 8px;
+  border: none;
+  margin: 1em 0em;
+}
+
+textarea {
+  
+  width: 482px;
+  max-lines: 10;
+}
+
+.sallypic {
+  margin: 0em 18em;
+  width: 148px;
+  height: 325px;
+}
+
+
 header {
   background-color: #f7b500;
 }
@@ -136,3 +272,4 @@ header .nav__wrapper .menu__active .dash {
   border-radius: 15px;
   margin-top: 8px;
 }/*# sourceMappingURL=App.css.map */
+
